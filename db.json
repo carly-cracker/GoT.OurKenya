@@ -1,0 +1,60 @@
+{
+    "safaris": [
+        {
+            "id": "1",
+            "name": "6 Day Northern Circuit",
+            "location": "Samburu, Ol Pejeta, Aberdare National Park, Kenya",
+            "image": "https://supereagles.co.ke/wp-content/uploads/2025/02/lion-5751867_1280-1-1024x683.jpg",
+            "pricing": "$800 - $1,500",
+            "details": "Explore Kenya’s Northern Circuit in this 6-day adventure. Journey through Samburu, Ol Pejeta, and Aberdare National Parks, experiencing unique wildlife, cultural encounters, and scenic landscapes."
+        },
+        {
+            "id": "2",
+            "name": "Maasai Mara Luxury 3 Days",
+            "location": "Maasai Mara National Reserve, Kenya",
+            "image": "https://supereagles.co.ke/wp-content/uploads/2025/02/elephants-2923917_1280-1-1024x682.jpg",
+            "pricing": "$950 - $1,800",
+            "details": "A luxury safari to Maasai Mara, home to the Big Five and the Great Migration. Enjoy exclusive lodges, guided game drives, and breathtaking landscapes."
+        },
+        {
+            "id": "3",
+            "name": "Amboseli Adventure",
+            "location": "Amboseli National Park, Kenya",
+            "image": "https://supereagles.co.ke/wp-content/uploads/2024/07/sunset-7760143_1280-1024x682.jpg",
+            "pricing": "$360 - $800",
+            "details": "Explore Amboseli National Park, famous for its large elephant herds and stunning views of Mount Kilimanjaro."
+        },
+        {
+            "id": "4",
+            "name": "Family Balloon Expedition",
+            "location": "Maasai Mara National Reserve, Kenya",
+            "image": "https://27166077.fs1.hubspotusercontent-eu1.net/hubfs/27166077/hot-air-balloon-in-maasai-mara-national-reserve-k-2021-09-03-16-18-13-utc-1.jpg",
+            "pricing": "$450 - $1,200",
+            "details": "A unique hot air balloon experience over the Maasai Mara, perfect for families looking for an unforgettable safari adventure."
+        },
+        {
+            "id": "5",
+            "name": "Loisaba Lodo Springs",
+            "location": "Laikipia County, Kenya",
+            "image": "https://nomad.africa/hs-fs/hubfs/Elewana%20Loisaba%20Lodo%20Springs%20-%20Dining%20Area%20Sunset%20Aerial.jpg?width=770&height=840&name=Elewana%20Loisaba%20Lodo%20Springs%20-%20Dining%20Area%20Sunset%20Aerial.jpg",
+            "pricing": "$366 - $1,000",
+            "details": "A luxurious safari retreat at Loisaba Lodo Springs, where guests can experience wildlife, scenic landscapes, and exclusive service in a private conservancy."
+        },
+        {
+            "id": "6",
+            "name": "Masai Mara Wonders",
+            "location": "Maasai Mara National Reserve, Kenya",
+            "image": "https://cdn-hnpbd.nitrocdn.com/tFuljipgTudrcUMDuEczCiFVuIwWiVdo/assets/images/optimized/rev-07f25da/pegatours.co.ke/wp-content/uploads/2023/01/Picture19-450x300.jpg",
+            "pricing": "$750 - $1,500",
+            "details": "Experience the wonders of Masai Mara, home to the Great Migration and an abundance of wildlife. Perfect for adventure seekers and photographers."
+        },
+        {
+            "id": "7",
+            "name": "Lake Nakuru Safari Adventure",
+            "location": "Lake Nakuru National Park, Kenya",
+            "image": "https://cdn-hnpbd.nitrocdn.com/tFuljipgTudrcUMDuEczCiFVuIwWiVdo/assets/images/optimized/rev-07f25da/pegatours.co.ke/wp-content/uploads/2023/01/WhatsApp-Image-2023-01-16-at-16.11.25-scaled-450x300.jpeg",
+            "pricing": "$500 - $800",
+            "details": "Explore Lake Nakuru National Park, famous for its flamingos, rhinos, and breathtaking landscapes."
+        }
+    ]
+}
