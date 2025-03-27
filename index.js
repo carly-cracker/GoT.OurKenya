@@ -89,7 +89,6 @@ function handleSafariClick(safari){
     safariInfo.appendChild(safariName)
     safariInfo.appendChild(imgSafari)
     safariInfo.appendChild(safariDetails)
-    console.log("happy")
 }
 
 const searchInput = document.getElementById("search-bar");
@@ -124,8 +123,18 @@ function displayResults(results) {
 
     results.forEach(safari => {
         const safariItem = document.createElement("div");
-        safariItem.textContent = safari.name;
-        safariItem.addEventListener("click", () =>handleSafariClick(safari));
+        
+        const safariLink = document.createElement("a")
+        safariLink.textContent = safari.name;
+        safariLink.href = "#sectioned-safari";
+        
+        safariLink.addEventListener("click", (event) =>{
+            event.preventDefault();
+            handleSafariClick(safari)
+
+        });
+
+        safariItem.appendChild(safariLink)
         resultBar.appendChild(safariItem);
     });
 }
