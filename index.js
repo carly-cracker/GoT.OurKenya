@@ -92,7 +92,45 @@ function handleSafariClick(safari){
     console.log("happy")
 }
 
+const searchInput = document.getElementById("search-bar");
+const resultBar = document.getElementById("results");
+let safaris = [];
+
+function fetchData() {
+    fetch("http://localhost:3000/safaris")
+        .then((res) => res.json())
+        .then((data) => {
+            safaris = data;
+        })
+        .catch((error) => console.error("Error fetching data:", error));
+}
+
+searchInput.addEventListener("input", () => {
+    const searchText = searchInput.value.toLowerCase();
+    const filteredResults = safaris.filter(safari =>
+        safari.name.toLowerCase().includes(searchText)
+    );
+
+    displayResults(filteredResults);
+});
+
+function displayResults(results) {
+    resultBar.innerHTML = ""; 
+
+    if (results.length === 0) {
+        resultBar.innerHTML = "<p>No safaris found.</p>";
+        return;
+    }
+
+    results.forEach(safari => {
+        const safariItem = document.createElement("div");
+        safariItem.textContent = safari.name;
+        safariItem.addEventListener("click", () =>handleSafariClick(safari));
+        resultBar.appendChild(safariItem);
+    });
+}
+
 function main(){
     fetchImages()
-    
+    fetchData()
 }

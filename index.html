@@ -6,15 +6,28 @@
     <link rel="stylesheet" href="index.css">
     <title>GoT.OurKenya</GoT></title>
 </head>
-<body>  
+<body> 
+<section id="home">
  <section id="topBack">
     <div>   
         <h1 id="top">GoT.OurKenya</h1>
-       </div>
+    <div>
+        <header>
+            <img src="logo.webp" alt="Go Tour Kenya Logo" class="logo" width="200px" height="200px">
+            <div>
+                <h2>Find Your Desired Safari</h2> <br>
+                 <input type="text" id="search-bar" placeholder="Search safaris...">
+                 <div id="results"></div>
+            </div>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#contact">Contact Us</a></li>
+                </ul>
+            </nav>  
+        </header>
     <div id="in">
-        <div>
-         <img src="logo.webp" alt="myLogo" height="250px">
-        </div>
+        
         <div id="intro">
          <h3 class="info">welcome to our travel agency</h3>
          <p class="info">Your gateway to breathtaking safaris, stunning landscapes, and unforgettable adventures across Kenya!</p>
@@ -25,32 +38,79 @@
  <div id="safari-packages"></div>
 
  <section id="sectioned-safaris">
-    <div id="safari-detail">
-        <h2>Safari Details</h2>
-        <h4>location <span id="location">Site Location</span></h4>
+    <div id="safari-detail"></div>
+ </section>
+<section id="contact">
+    <h2>GET IN TOUCH</h2>
+    <p>Send us an inquiry and we will get back to you shortly.</p>
+
+    <div class="contact-container">
+        <div class="contact-info">
+            <div>
+                <img src="https://i.pinimg.com/236x/c0/c0/de/c0c0de319f7aca997388db85ea762b5a.jpg" alt="Location">
+                <div>
+                    <h3>Our Location</h3>
+                    <p>Jerema Plaza, Kahawa Wendani, Nairobi</p>
+                </div>
+            </div>
+
+            <div>
+                <img src="https://i.pinimg.com/236x/73/db/4c/73db4c114c772ddb3740a5882d84084a.jpg" alt="Phone">
+                <div>
+                    <h3>Phone Number</h3> 
+                    <p>+254 799202039 <br> +254 712281431</p>
+                </div>
+            </div>
+
+            <div>
+                <img src="https://i.pinimg.com/236x/ca/27/f6/ca27f615c790f1af43f2dd564599bf6a.jpg" alt="Email">
+                <div>
+                    <h3>Email us</h3>
+                    <p><a href="mailto:info@gotourkenya.com" class="email-link">info@gotourkenya.com</a></p>
+                </div>
+            </div>
+        </div>
     </div>
 </section>
-<h2 id="mid-div">Add your favourite tour package</h2>
 
-<section id="aForm">
-<div>
-    <form id="new-package">
-        <label for="new-name">safari:</label><br>
-        <input type="text" id="new-name" name="name" required><br>
+<footer>
+    <div class="footer-container">
+        <div class="footer-section about">
+            <img src="logo.webp" alt="GoT.OurKenya Logo" class="footer-logo" width="200px" height="200px">
+            <p>
+                GoT.OurKenya is your trusted travel partner, offering breathtaking safaris, stunning landscapes, and unforgettable adventures across Kenya!
+            </p>
+            <div class="social-icons">
+                <a href="#"><img src="twitter-icon.png" alt="Twitter"></a>
+                <a href="#"><img src="facebook-icon.png" alt="Facebook"></a>
+                <a href="#"><img src="instagram-icon.png" alt="Instagram"></a>
+            </div>
+        </div>
 
-        <label for="new-safari">location:</label><br>
-        <input type="text" id="new-safari" name="Safari" required><br>
+        <div class="footer-section links">
+            <h3>About Us</h3>
+            <ul>
+                <li><a href="#home">Our destinations</a></li>
+                <li><a href="#services">Our Services</a></li>
+                <li><a href="#contact">Contact us</a></li>
+            </ul>
+        </div>
 
-        <label for="image">Image:</label><br>
-        <input type="text" id="safari-image" name="image" required><br>
+        <!-- Right: Contact Info -->
+        <div class="footer-section contact">
+            <h3>Contact Info</h3>
+            <p><img src="location-icon.png" alt="Location"> Jerema Plaza, Kahawa Wendani, Nairobi</p>
+            <p><img src="phone-icon.png" alt="Phone"> +254 799202039 <br> +254 712281431</p>
+            <p><img src="email-icon.png" alt="Email"> info@gotourkenya.com</p>
+        </div>
+    </div>
 
-        <label for="comment">Comments:</label><br>
-        <textarea name="comment" id="food-comment" required></textarea><br>
-
-        <button type="submit">create</button>
-    </form>
-</div>
-</section>
+    <div class="footer-bottom">
+        <p>© 2025 GoT.OurKenya. All Rights Reserved.</p>
+    </div>
+</footer>
+</body>
+</html>
 <script src="index.js"></script>
 </body>
 </html>
