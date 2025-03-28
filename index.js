@@ -37,7 +37,12 @@ function fetchImages (){
                 exploreButton.classList.add("explore-btn")
                 imageContainer.appendChild(exploreButton)
 
-                imageContainer.addEventListener("click", ()=>handleSafariClick(safari))
+                imageContainer.addEventListener("click", (event)=>{
+                    event.preventDefault()
+                    handleSafariClick(safari)
+                    document.getElementById("display").scrollIntoView({behavior:"smooth"})
+            })
+                
 
                 topBar.appendChild(imageContainer);
             });
