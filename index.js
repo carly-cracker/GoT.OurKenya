@@ -86,7 +86,7 @@ function handleSafariClick(safari){
     safariDetails.style.marginTop = "10px"
 
     const likeButton = document.createElement("button");
-    likeButton.textContent = "❤️";
+    likeButton.textContent = `🤍`;
     likeButton.type = "button"
     likeButton.style.display = "flex";
     likeButton.style.margin = "10px auto";
@@ -104,16 +104,18 @@ function handleSafariClick(safari){
 
     likeButton.addEventListener("click", (event) => {
         event.preventDefault()
+        event.stopPropagation()
     currentLikes = parseInt(likeDisplay.textContent,10) || 0
     let newLikes = currentLikes + 1
+    likeDisplay.textContent = newLikes;
     updateLikeCount(safari.id, newLikes).then(() => {
-        likeDisplay.textContent = newLikes;})
+       })
 })
     safariDetails.innerHTML = safari.details
     safariInfo.appendChild(safariName)
     safariInfo.appendChild(imgSafari)
     safariInfo.appendChild(safariDetails)
-    likeButton.appendChild(likeDisplay)
+    safariDetails.appendChild(likeDisplay)
     safariDetails.appendChild(likeButton)
 }
 
@@ -152,12 +154,12 @@ function displayResults(results) {
         
         const safariLink = document.createElement("a")
         safariLink.textContent = safari.name;
-        safariLink.href = "#sectioned-safari";
+        safariLink.href = "#display";
         
         safariLink.addEventListener("click", (event) =>{
             event.preventDefault();
             handleSafariClick(safari)
-
+            document.getElementById("display").scrollIntoView({ behavior: "smooth" })
         });
 
        safariItem.appendChild(safariLink)
@@ -166,15 +168,20 @@ function displayResults(results) {
 }
  
  function updateLikeCount(safariId, newLikes) {
-     fetch(`http://localhost:3000/safaris/${safariId}`, {
+    return fetch(`http://localhost:3000/safaris/${safariId}`, {
          method: "PATCH",
          headers: {
              "Content-Type": "application/json"
          },
          body: JSON.stringify({ likes: newLikes })
      })
-     .then((res) => res.json())
-     .then((updatedSafari))
+     .then((res) => {
+        if (!res.ok) {
+            throw new Error(`Failed to update likes (Status: ${res.status})`);
+        }
+        return res.json();
+    })
+     .then((updatedSafari) => console.log("Likes updated:", updatedSafari))
      .catch((error) => console.error("Error updating likes:", error));
 }
 
