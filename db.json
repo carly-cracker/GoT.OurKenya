@@ -1,60 +1,67 @@
 {
-    "safaris": [
-        {
-            "id": "1",
-            "name": "6 Day Northern Circuit",
-            "location": "Samburu, Ol Pejeta, Aberdare National Park, Kenya",
-            "image": "https://supereagles.co.ke/wp-content/uploads/2025/02/lion-5751867_1280-1-1024x683.jpg",
-            "pricing": "$800 - $1,500",
-            "details": "Explore Kenya’s Northern Circuit in this 6-day adventure. Journey through the semi-arid landscapes of Samburu National Reserve, home to rare species like the Grevy’s zebra and reticulated giraffe. Visit Ol Pejeta Conservancy, famous for its rhino sanctuary and exceptional game viewing. Experience the misty forests of Aberdare National Park, where waterfalls, lush vegetation, and elusive leopards await. Enjoy guided game drives, luxurious lodges, and a deep dive into Kenya’s rich biodiversity."
-        },
-        {
-            "id": "2",
-            "name": "Maasai Mara Luxury 3 Days",
-            "location": "Maasai Mara National Reserve, Kenya",
-            "image": "https://supereagles.co.ke/wp-content/uploads/2025/02/elephants-2923917_1280-1-1024x682.jpg",
-            "pricing": "$950 - $1,800",
-            "details": "This 3-day luxury safari offers an unforgettable journey into the Maasai Mara, one of Africa’s most renowned wildlife destinations. Stay in exclusive lodges with world-class service and breathtaking savanna views. Experience thrilling morning and evening game drives, spotting the Big Five and witnessing the Great Migration (seasonal). Enjoy cultural visits to Maasai villages, gourmet dining under the stars, and optional hot air balloon rides over the golden plains."
-        },
-        {
-            "id": "3",
-            "name": "Amboseli Adventure",
-            "location": "Amboseli National Park, Kenya",
-            "image": "https://supereagles.co.ke/wp-content/uploads/2024/07/sunset-7760143_1280-1024x682.jpg",
-            "pricing": "$360 - $800",
-            "details": "Discover Amboseli National Park, known for its vast elephant herds roaming against the backdrop of Mount Kilimanjaro. This adventure includes daily game drives, where you can spot lions, cheetahs, hyenas, and an abundance of birdlife. Visit local Maasai communities to learn about their traditions and way of life. Capture stunning sunrise and sunset photography, with Kilimanjaro’s snow-capped peak providing a dramatic setting."
-        },
-        {
-            "id": "4",
-            "name": "Family Balloon Expedition",
-            "location": "Maasai Mara National Reserve, Kenya",
-            "image": "https://27166077.fs1.hubspotusercontent-eu1.net/hubfs/27166077/hot-air-balloon-in-maasai-mara-national-reserve-k-2021-09-03-16-18-13-utc-1.jpg",
-            "pricing": "$450 - $1,200",
-            "details": "Soar above the Maasai Mara in a breathtaking hot air balloon safari, an experience perfect for families and adventurers alike. As the sun rises, drift silently over the Mara’s rolling plains, watching herds of wildebeest, elephants, and lions from above. Upon landing, enjoy a champagne breakfast in the wild, followed by guided nature walks and traditional Maasai storytelling. This safari offers a magical and unique perspective of Kenya’s wildlife."
-        },
-        {
-            "id": "5",
-            "name": "Loisaba Lodo Springs",
-            "location": "Laikipia County, Kenya",
-            "image": "https://nomad.africa/hs-fs/hubfs/Elewana%20Loisaba%20Lodo%20Springs%20-%20Dining%20Area%20Sunset%20Aerial.jpg?width=770&height=840&name=Elewana%20Loisaba%20Lodo%20Springs%20-%20Dining%20Area%20Sunset%20Aerial.jpg",
-            "pricing": "$366 - $1,000",
-            "details": "Experience the exclusivity of Loisaba Lodo Springs, a hidden gem in Laikipia County. This luxury retreat offers panoramic views, beautifully designed tented suites, and top-tier hospitality. Enjoy game drives in Loisaba Conservancy, where elephants, lions, and leopards roam freely. Engage in camel trekking, horseback safaris, and guided nature walks. Night drives offer a rare chance to spot nocturnal wildlife like aardvarks and porcupines. The experience is enhanced by gourmet cuisine and stunning sunsets over the African plains."
-        },
-        {
-            "id": "6",
-            "name": "Masai Mara Wonders",
-            "location": "Maasai Mara National Reserve, Kenya",
-            "image": "https://cdn-hnpbd.nitrocdn.com/tFuljipgTudrcUMDuEczCiFVuIwWiVdo/assets/images/optimized/rev-07f25da/pegatours.co.ke/wp-content/uploads/2023/01/Picture19-450x300.jpg",
-            "pricing": "$750 - $1,500",
-            "details": "Immerse yourself in the wonders of the Maasai Mara, where unparalleled wildlife encounters await. This safari offers an intimate look at the savanna’s predators, including lions, leopards, and cheetahs. Spot herds of zebras, giraffes, and elephants moving gracefully across the plains. Enjoy sunrise and sunset game drives, a visit to the Mara River (a key crossing point for the Great Migration), and authentic cultural experiences with the Maasai people. A dream trip for nature lovers and photographers."
-        },
-        {
-            "id": "7",
-            "name": "Lake Nakuru Safari Adventure",
-            "location": "Lake Nakuru National Park, Kenya",
-            "image": "https://cdn-hnpbd.nitrocdn.com/tFuljipgTudrcUMDuEczCiFVuIwWiVdo/assets/images/optimized/rev-07f25da/pegatours.co.ke/wp-content/uploads/2023/01/WhatsApp-Image-2023-01-16-at-16.11.25-scaled-450x300.jpeg",
-            "pricing": "$500 - $800",
-            "details": "Journey to Lake Nakuru National Park, a paradise for bird lovers and wildlife enthusiasts. Witness thousands of flamingos lining the shores of the alkaline lake, along with pelicans and cormorants. The park is also home to endangered rhinos, leopards, and tree-climbing lions. Take in breathtaking viewpoints from Baboon Cliff and Makalia Falls. This safari offers both relaxing nature experiences and thrilling wildlife encounters."
-        }
-    ]
+  "safaris": [
+    {
+      "id": "1",
+      "name": "6 Day Northern Circuit",
+      "location": "Samburu, Ol Pejeta, Aberdare National Park, Kenya",
+      "image": "https://supereagles.co.ke/wp-content/uploads/2025/02/lion-5751867_1280-1-1024x683.jpg",
+      "pricing": "$800 - $1,500",
+      "likes": "15",
+      "details": "Explore Kenya’s Northern Circuit in this 6-day adventure. Journey through the semi-arid landscapes of Samburu National Reserve, home to rare species like the Grevy’s zebra and reticulated giraffe. Visit Ol Pejeta Conservancy, famous for its rhino sanctuary and exceptional game viewing. Experience the misty forests of Aberdare National Park, where waterfalls, lush vegetation, and elusive leopards await. Enjoy guided game drives, luxurious lodges, and a deep dive into Kenya’s rich biodiversity."
+    },
+    {
+      "id": "2",
+      "name": "Maasai Mara Luxury 3 Days",
+      "location": "Maasai Mara National Reserve, Kenya",
+      "image": "https://supereagles.co.ke/wp-content/uploads/2025/02/elephants-2923917_1280-1-1024x682.jpg",
+      "pricing": "$950 - $1,800",
+      "likes": "171",
+      "details": "This 3-day luxury safari offers an unforgettable journey into the Maasai Mara, one of Africa’s most renowned wildlife destinations. Stay in exclusive lodges with world-class service and breathtaking savanna views. Experience thrilling morning and evening game drives, spotting the Big Five and witnessing the Great Migration (seasonal). Enjoy cultural visits to Maasai villages, gourmet dining under the stars, and optional hot air balloon rides over the golden plains."
+    },
+    {
+      "id": "3",
+      "name": "Amboseli Adventure",
+      "location": "Amboseli National Park, Kenya",
+      "image": "https://supereagles.co.ke/wp-content/uploads/2024/07/sunset-7760143_1280-1024x682.jpg",
+      "pricing": "$360 - $800",
+      "likes": "19",
+      "details": "Discover Amboseli National Park, known for its vast elephant herds roaming against the backdrop of Mount Kilimanjaro. This adventure includes daily game drives, where you can spot lions, cheetahs, hyenas, and an abundance of birdlife. Visit local Maasai communities to learn about their traditions and way of life. Capture stunning sunrise and sunset photography, with Kilimanjaro’s snow-capped peak providing a dramatic setting."
+    },
+    {
+      "id": "4",
+      "name": "Family Balloon Expedition",
+      "location": "Maasai Mara National Reserve, Kenya",
+      "image": "https://27166077.fs1.hubspotusercontent-eu1.net/hubfs/27166077/hot-air-balloon-in-maasai-mara-national-reserve-k-2021-09-03-16-18-13-utc-1.jpg",
+      "pricing": "$450 - $1,200",
+      "likes": "106",
+      "details": "Soar above the Maasai Mara in a breathtaking hot air balloon safari, an experience perfect for families and adventurers alike. As the sun rises, drift silently over the Mara’s rolling plains, watching herds of wildebeest, elephants, and lions from above. Upon landing, enjoy a champagne breakfast in the wild, followed by guided nature walks and traditional Maasai storytelling. This safari offers a magical and unique perspective of Kenya’s wildlife."
+    },
+    {
+      "id": "5",
+      "name": "Loisaba Lodo Springs",
+      "location": "Laikipia County, Kenya",
+      "image": "https://nomad.africa/hs-fs/hubfs/Elewana%20Loisaba%20Lodo%20Springs%20-%20Dining%20Area%20Sunset%20Aerial.jpg?width=770&height=840&name=Elewana%20Loisaba%20Lodo%20Springs%20-%20Dining%20Area%20Sunset%20Aerial.jpg",
+      "pricing": "$366 - $1,000",
+      "likes": "91",
+      "details": "Experience the exclusivity of Loisaba Lodo Springs, a hidden gem in Laikipia County. This luxury retreat offers panoramic views, beautifully designed tented suites, and top-tier hospitality. Enjoy game drives in Loisaba Conservancy, where elephants, lions, and leopards roam freely. Engage in camel trekking, horseback safaris, and guided nature walks. Night drives offer a rare chance to spot nocturnal wildlife like aardvarks and porcupines. The experience is enhanced by gourmet cuisine and stunning sunsets over the African plains."
+    },
+    {
+      "id": "6",
+      "name": "Masai Mara Wonders",
+      "location": "Maasai Mara National Reserve, Kenya",
+      "image": "https://cdn-hnpbd.nitrocdn.com/tFuljipgTudrcUMDuEczCiFVuIwWiVdo/assets/images/optimized/rev-07f25da/pegatours.co.ke/wp-content/uploads/2023/01/Picture19-450x300.jpg",
+      "pricing": "$750 - $1,500",
+      "likes": "56",
+      "details": "Immerse yourself in the wonders of the Maasai Mara, where unparalleled wildlife encounters await. This safari offers an intimate look at the savanna’s predators, including lions, leopards, and cheetahs. Spot herds of zebras, giraffes, and elephants moving gracefully across the plains. Enjoy sunrise and sunset game drives, a visit to the Mara River (a key crossing point for the Great Migration), and authentic cultural experiences with the Maasai people. A dream trip for nature lovers and photographers."
+    },
+    {
+      "id": "7",
+      "name": "Lake Nakuru Safari Adventure",
+      "location": "Lake Nakuru National Park, Kenya",
+      "image": "https://cdn-hnpbd.nitrocdn.com/tFuljipgTudrcUMDuEczCiFVuIwWiVdo/assets/images/optimized/rev-07f25da/pegatours.co.ke/wp-content/uploads/2023/01/WhatsApp-Image-2023-01-16-at-16.11.25-scaled-450x300.jpeg",
+      "pricing": "$500 - $800",
+      "likes": 171,
+      "details": "Journey to Lake Nakuru National Park, a paradise for bird lovers and wildlife enthusiasts. Witness thousands of flamingos lining the shores of the alkaline lake, along with pelicans and cormorants. The park is also home to endangered rhinos, leopards, and tree-climbing lions. Take in breathtaking viewpoints from Baboon Cliff and Makalia Falls. This safari offers both relaxing nature experiences and thrilling wildlife encounters."
+    }
+  ]
 }

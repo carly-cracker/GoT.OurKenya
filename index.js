@@ -85,10 +85,36 @@ function handleSafariClick(safari){
     safariDetails.style.textAlign = "center"; 
     safariDetails.style.marginTop = "10px"
 
+    const likeButton = document.createElement("button");
+    likeButton.textContent = "❤️";
+    likeButton.type = "button"
+    likeButton.style.display = "flex";
+    likeButton.style.margin = "10px auto";
+    likeButton.style.padding = "10px";
+    likeButton.style.background = "#ff4757";
+    likeButton.style.color = "white";
+    likeButton.style.border = "none";
+    likeButton.style.borderRadius = "5px";
+    likeButton.style.cursor = "pointer";
+
+    const likeDisplay = document.createElement("p");
+    likeDisplay.textContent = `${safari.likes}`;
+    likeDisplay.style.textAlign = "center";
+    likeDisplay.style.color = "#fff";
+
+    likeButton.addEventListener("click", (event) => {
+        event.preventDefault()
+    currentLikes = parseInt(likeDisplay.textContent,10) || 0
+    let newLikes = currentLikes + 1
+    updateLikeCount(safari.id, newLikes).then(() => {
+        likeDisplay.textContent = newLikes;})
+})
     safariDetails.innerHTML = safari.details
     safariInfo.appendChild(safariName)
     safariInfo.appendChild(imgSafari)
     safariInfo.appendChild(safariDetails)
+    likeButton.appendChild(likeDisplay)
+    safariDetails.appendChild(likeButton)
 }
 
 const searchInput = document.getElementById("search-bar");
@@ -134,10 +160,24 @@ function displayResults(results) {
 
         });
 
-        safariItem.appendChild(safariLink)
+       safariItem.appendChild(safariLink)
         resultBar.appendChild(safariItem);
     });
 }
+ 
+ function updateLikeCount(safariId, newLikes) {
+     fetch(`http://localhost:3000/safaris/${safariId}`, {
+         method: "PATCH",
+         headers: {
+             "Content-Type": "application/json"
+         },
+         body: JSON.stringify({ likes: newLikes })
+     })
+     .then((res) => res.json())
+     .then((updatedSafari))
+     .catch((error) => console.error("Error updating likes:", error));
+}
+
 
 function main(){
     fetchImages()

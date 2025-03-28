@@ -126,10 +126,13 @@ header {
     text-align: justify;
 }
 
-#contact h2,p {
+#contact h2 {
     font-size: 18px;
     font-weight: bold;
     color: #3a236b; 
+}
+p {
+    color: #2b2929;
 }
 
 .contact-container {
