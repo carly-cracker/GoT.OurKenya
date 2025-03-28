@@ -2,7 +2,7 @@ document.addEventListener('DOMContentLoaded',main)
 
 const topBar = document.getElementById("safari-packages")
 function fetchImages (){
-    return fetch('http://localhost:3000/safaris')
+    return fetch('https://go-tour-kenya-server.vercel.app/safaris')
     .then ((res) => res.json())
     .then((safaris) => {
         topBar.classList.add('image-gallery');
@@ -129,7 +129,7 @@ const resultBar = document.getElementById("results");
 let safaris = [];
 
 function fetchData() {
-    fetch("https://go-tour-kenya-server.vercel.app/safaris")
+    fetch("http://localhost:3000/safaris")
         .then((res) => res.json())
         .then((data) => {
             safaris = data;
@@ -173,7 +173,7 @@ function displayResults(results) {
 }
  
  function updateLikeCount(safariId, newLikes) {
-    return fetch(`https://go-tour-kenya-server.vercel.app/${safariId}`, {
+    return fetch(`https://go-tour-kenya-server.vercel.app/safaris/${safariId}`, {
          method: "PATCH",
          headers: {
              "Content-Type": "application/json"
