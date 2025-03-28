@@ -129,7 +129,7 @@ const resultBar = document.getElementById("results");
 let safaris = [];
 
 function fetchData() {
-    fetch("http://localhost:3000/safaris")
+    fetch("https://go-tour-kenya-server.vercel.app/safaris")
         .then((res) => res.json())
         .then((data) => {
             safaris = data;
