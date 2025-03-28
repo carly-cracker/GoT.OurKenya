@@ -62,6 +62,33 @@
       "pricing": "$500 - $800",
       "likes": 184,
       "details": "Journey to Lake Nakuru National Park, a paradise for bird lovers and wildlife enthusiasts. Witness thousands of flamingos lining the shores of the alkaline lake, along with pelicans and cormorants. The park is also home to endangered rhinos, leopards, and tree-climbing lions. Take in breathtaking viewpoints from Baboon Cliff and Makalia Falls. This safari offers both relaxing nature experiences and thrilling wildlife encounters."
+    },
+    {
+      "id": "8",
+      "name": "Diani Beach Paradise",
+      "location": "Diani Beach, Kenya",
+      "image": "https://kiliantravel.co.ke/wp-content/uploads/2024/10/Voyager-Beach-Resort-scaled-1.jpg",
+      "pricing": "$500 - $1,500",
+      "likes": 98,
+      "details": "Relax on the pristine white sands of Diani Beach, one of Africa’s most beautiful coastal destinations. Enjoy crystal-clear turquoise waters, vibrant coral reefs, and thrilling water sports like kitesurfing and snorkeling. Take a boat trip to Wasini Island, where you can spot dolphins and explore the enchanting Kisite Marine Park. Indulge in fresh seafood at oceanfront restaurants, and experience the vibrant nightlife of beachside bars. For an adventurous twist, explore the nearby Shimba Hills National Reserve, home to rare Sable Antelopes and breathtaking waterfalls."
+    },
+    {
+      "id": "9",
+      "name": "Mount Kenya Climbing Expedition",
+      "location": "Mount Kenya National Park, Kenya",
+      "image": "https://i.pinimg.com/236x/61/4c/ae/614cae2500b905eae9237e0be94e1b89.jpg",
+      "pricing": "$900 - $2,500",
+      "likes": 112,
+      "details": "Embark on a thrilling multi-day trek up Africa’s second-highest mountain. Choose from different routes such as Sirimon, Naro Moru, or Chogoria, each offering breathtaking scenery, alpine meadows, and glacial peaks. Encounter unique wildlife like rock hyraxes and sunbirds, and experience sunrise at Point Lenana with panoramic views. Trek through diverse landscapes, from dense montane forests to alpine desert. Witness the rare Afro-alpine flora, including giant lobelias and groundsels. Spend nights in scenic mountain huts, enjoying warm meals and camaraderie with fellow climbers. The adventure culminates with a triumphant summit sunrise, unveiling the majestic Kenyan horizon."
+    },
+    {
+      "id": "10",
+      "name": "Tsavo East & West Safari Adventure",
+      "location": "Tsavo East & Tsavo West National Parks, Kenya",
+      "image": "https://kiliantravel.co.ke/wp-content/uploads/2024/10/Tsavo-national-park-600x450.jpg",
+      "pricing": "$600 - $1,400",
+      "likes": 85,
+      "details": "Explore Kenya’s largest national park, split into Tsavo East and Tsavo West. Witness the famous red elephants of Tsavo, the stunning Mzima Springs with its crystal-clear waters, and the dramatic landscapes of the Shetani Lava Flows. Enjoy game drives through diverse ecosystems teeming with lions, leopards, giraffes, and over 500 bird species. Take in breathtaking views from Mudanda Rock, a popular waterhole frequented by elephants. Visit the eerie yet beautiful Lugard Falls, where the Galana River carves through volcanic rock formations. Experience the unique underground viewing chamber at Mzima Springs, offering a rare glimpse of hippos and crocodiles beneath the water."
     }
   ]
 }
